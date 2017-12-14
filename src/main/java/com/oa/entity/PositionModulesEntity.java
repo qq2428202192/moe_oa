@@ -3,6 +3,7 @@ package com.oa.entity;
 /**
 * 权限关联 职位关联模块实体类
 */
+
 public class PositionModulesEntity {
 
   private Integer pm_id;  //编号

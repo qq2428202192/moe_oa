@@ -5,6 +5,7 @@ import java.sql.Timestamp;
 /**
 * 档案实体类
 */
+
 public class DossierEntity {
  
   private Integer do_id; //档案编号

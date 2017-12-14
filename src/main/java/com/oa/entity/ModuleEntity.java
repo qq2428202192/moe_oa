@@ -3,6 +3,7 @@ package com.oa.entity;
 /**
 * 模块实体类
 */
+
 public class ModuleEntity {
 
   private Integer mo_id;  //模块id

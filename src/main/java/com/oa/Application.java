@@ -1,4 +1,4 @@
-package com.oa.controller;
+package com.oa;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Description:   主模块
  * @ClassName:     Application.java
  * @author         moe
- * @Date           2017-12-14 09:37
+ * @Date           2017-12-14
  */
 
 @SpringBootApplication

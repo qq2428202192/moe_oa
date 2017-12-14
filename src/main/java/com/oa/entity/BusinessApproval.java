@@ -5,6 +5,7 @@ import java.sql.Timestamp;
 /**
  * 审核实体类
  */
+
 public class BusinessApproval {
 
   private Integer ba_id; //业务id

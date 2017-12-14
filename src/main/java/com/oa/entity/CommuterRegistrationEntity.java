@@ -5,6 +5,7 @@ import java.sql.Timestamp;
 /**
 * 上下班考勤实体类
 */
+
 public class CommuterRegistrationEntity {
 
   private Integer cr_id; //考勤id;

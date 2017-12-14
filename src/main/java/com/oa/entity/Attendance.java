@@ -5,6 +5,7 @@ import java.sql.Timestamp;
 /**
  * 出差 加班 病假 事假实体类
  */
+
 public class Attendance {
 
   private Integer at_id; //id

@@ -5,6 +5,7 @@ import java.sql.Timestamp;
 /**
 * 邮件实体类
 */
+
 public class EmailEntity {
 
   private Integer em_id;  //id

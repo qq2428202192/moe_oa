@@ -3,6 +3,7 @@ package com.oa.entity;
 /**
 * 部门实体类
 */
+
 public class DepartmentEntity {
 
   private Integer de_id; //部门id;

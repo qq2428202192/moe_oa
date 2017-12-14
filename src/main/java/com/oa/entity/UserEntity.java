@@ -1,10 +1,13 @@
 package com.oa.entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.sql.Timestamp;
 
 /**
 * 用户实体类
 */
+
 public class UserEntity {
 
   private Integer us_id; //用户id
@@ -12,9 +15,12 @@ public class UserEntity {
   private String login_pas; //登录密码
   private Integer pas_error_num; //密码错误次数
   private String user_name; //用户名
+  @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT-6")
   private Timestamp create_time; //创立时间
+  @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT-6")
   private Timestamp last_login_time; //最后登陆时间
   private String is_locking; //是否锁定
+  @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT-6")
   private Timestamp locking_time; //锁定时间
   private String is_delete; //是否删除
   private Integer do_id; //档案关联
